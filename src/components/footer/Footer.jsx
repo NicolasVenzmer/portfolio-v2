@@ -27,10 +27,10 @@ const Footer = () => {
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="www.google.com">
+        <a href="https://www.linkedin.com/in/nicolas-alejandro-venzmer/" target="_blank">
           <BsLinkedin />
         </a>
-        <a href="www.google.com">
+        <a href="https://github.com/NicolasVenzmer" target="_blank">
           <FaGithub />
         </a>
       </div>
