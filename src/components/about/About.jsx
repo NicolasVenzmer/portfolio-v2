@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/me-about.png";
 import { FaAward } from "react-icons/fa6";
 import { FaUniversity } from "react-icons/fa";
 import { BiBrain } from "react-icons/bi";
@@ -26,7 +26,7 @@ const About = () => {
             <article className="about__card">
               <FaUniversity className="about__icon" />
               <h5>University</h5>
-              <small>2 Subjects Left</small>
+              <small>1 Subjects Left</small>
             </article>
             <article className="about__card">
               <BiBrain className="about__icon" />

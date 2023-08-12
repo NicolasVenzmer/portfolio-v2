@@ -1,17 +1,17 @@
-.container.certifications__container {
+.container.languages__container {
   width: 40%;
 }
 
-.certification__avatar {
+.language__image {
   width: 4rem;
   aspect-ratio: 1/1;
   overflow: hidden;
   border-radius: 50%;
   margin: 0 auto 1rem;
-  border: 0.4rem solid var(--color-primary-variant);
 }
 
-.certification {
+.language {
+  height: auto !important;
   background: var(--color-bg-variant);
   text-align: center;
   padding: 2rem;
@@ -19,7 +19,7 @@
   user-select: none;
 }
 
-.certification__review {
+.language__description {
   color: var(--color-light);
   font-weight: 300;
   display: block;
@@ -30,7 +30,7 @@
 /* =============================== MEDIA QUERIES (MEDIUM DEVICES) ============================= */
 
 @media screen and (max-width: 1024px) {
-  .container.certifications__container {
+  .container.languages__container {
     width: 60%;
   }
 }
@@ -38,11 +38,11 @@
 /* =============================== MEDIA QUERIES (SMALL DEVICES) ============================= */
 
 @media screen and (max-width: 600px) {
-  .container.certifications__container {
+  .container.languages__container {
     width: var(--container-width-sm);
   }
 
-  .certification__review {
+  .language__description {
     width: var(--container-width-sm);
   }
 }

@@ -5,9 +5,9 @@ import { MdAccountCircle } from "react-icons/md";
 import { FaBook } from "react-icons/fa";
 import { BiSolidMessageDetail } from "react-icons/bi";
 import { MdWork } from "react-icons/md";
-import { PiCertificateFill } from "react-icons/pi";
 import { useState } from "react";
 import { HiHome } from "react-icons/hi";
+import { MdLanguage } from "react-icons/md";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
@@ -49,13 +49,13 @@ const Nav = () => {
           <MdWork />
         </a>
       </Tooltip>
-      <Tooltip title="Certifications">
+      <Tooltip title="Languages">
         <a
-          href="#certifications"
-          onClick={() => setActiveNav("#certifications")}
-          className={activeNav === "#certifications" ? "active" : ""}
+          href="#languages"
+          onClick={() => setActiveNav("#languages")}
+          className={activeNav === "#languages" ? "active" : ""}
         >
-          <PiCertificateFill />
+          <MdLanguage />
         </a>
       </Tooltip>
       <Tooltip title="Contact">
