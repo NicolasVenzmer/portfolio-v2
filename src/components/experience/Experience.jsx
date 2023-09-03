@@ -56,12 +56,12 @@ const backEndData = [
       <BiLogoPostgresql className="experience__details-icon" color="#00758F" />
     ),
     title: "SQL",
-    description: "Experienced",
+    description: "Intermediate",
   },
   {
     icon: <FaPython className="experience__details-icon" color="#4B8BBE" />,
     title: "Python",
-    description: "Experienced",
+    description: "Intermediate",
   },
 ];
 
