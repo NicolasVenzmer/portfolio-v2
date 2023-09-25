@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me-about.png";
+import ME from "../../assets/me-about.jpg";
 import { FaAward } from "react-icons/fa6";
 import { FaUniversity } from "react-icons/fa";
 import { BiBrain } from "react-icons/bi";
