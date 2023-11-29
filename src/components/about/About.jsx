@@ -26,7 +26,7 @@ const About = () => {
             <article className="about__card">
               <FaUniversity className="about__icon" />
               <h5>University</h5>
-              <small>1 Subjects Left</small>
+              <small>Bachelor In Computer Science</small>
             </article>
             <article className="about__card">
               <BiBrain className="about__icon" />
