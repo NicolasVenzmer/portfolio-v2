@@ -42,8 +42,7 @@ const About = () => {
             Experienced Front-End Software Engineer with 2+ years of expertise
             in JavaScript and frameworks, transforming complex designs into
             optimized web applications. Fluent in English, Spanish, and
-            intermediate in German. Graduate in Bachelor's in Computer
-            Science. Passionate, proactive, and committed to continuous
+            intermediate in German. Degree in Computer Sciene. Passionate, proactive, and committed to continuous
             learning. Let's collaborate to build innovative web solutions and
             shape the future of technology.
           </p>
