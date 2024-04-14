@@ -9,6 +9,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { FaPython } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
+import { BiLogoMongodb } from "react-icons/bi";
 
 const frontEndData = [
   {
@@ -61,6 +62,11 @@ const backEndData = [
   {
     icon: <FaPython className="experience__details-icon" color="#4B8BBE" />,
     title: "Python",
+    description: "Intermediate",
+  },
+    {
+    icon: <BiLogoMongodb className="experience__details-icon" color="#4B8BBE" />,
+    title: "MongoDB",
     description: "Intermediate",
   },
 ];
