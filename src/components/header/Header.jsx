@@ -12,7 +12,7 @@ const Header = () => {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 60,
-      strings: ["ReactJS", "NextJS", "JavaScript", "HTML", "CSS"],
+      strings: ["ReactJS", "NextJS", "JavaScript", "TypeScript", "NodeJS", "HTML", "CSS"],
     });
   }, []);
   return (
@@ -21,7 +21,7 @@ const Header = () => {
         <h5>Hi There, I'm</h5>
         <h1>Nicolas Venzmer</h1>
         <h5 className="text-light">
-          Front-End Engineer <span ref={textRef}></span>
+          Software Engineer <span ref={textRef}></span>
         </h5>
         <CTA />
         <HeaderSocials />

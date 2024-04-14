@@ -26,7 +26,7 @@ const About = () => {
             <article className="about__card">
               <FaUniversity className="about__icon" />
               <h5>University</h5>
-              <small>Bachelor In Computer Science</small>
+              <small>Bachelor's Degree in Information Technology Management</small>
             </article>
             <article className="about__card">
               <BiBrain className="about__icon" />
@@ -42,7 +42,7 @@ const About = () => {
             Experienced Front-End Software Engineer with 2+ years of expertise
             in JavaScript and frameworks, transforming complex designs into
             optimized web applications. Fluent in English, Spanish, and
-            intermediate in German. Degree in Computer Sciene. Passionate, proactive, and committed to continuous
+            intermediate in German. Degree in Information Technology Management. Passionate, proactive, and committed to continuous
             learning. Let's collaborate to build innovative web solutions and
             shape the future of technology.
           </p>
